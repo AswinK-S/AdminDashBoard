@@ -7,7 +7,7 @@ class SalesChart extends Component {
       animationEnabled: true,
       theme: "light2",
       title: {
-        text: "Sales Details",
+        // text: "Sales Details",
         fontSize: 24,
         fontWeight: "bold",
         horizontalAlign: "left",

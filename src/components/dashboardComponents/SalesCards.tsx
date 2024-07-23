@@ -12,6 +12,7 @@ interface StatisticCardProps {
   changeType: 'up' | 'down';
   description: string;
 }
+
 //array of static data
 const salesData: StatisticCardProps[] = [
   {

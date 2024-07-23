@@ -15,7 +15,7 @@ const SearchBar: React.FC = () => {
             <div className="flex items-center">
                 <IoIosNotifications className='text-[#0c8ce9] text-2xl mr-2' />
                 <img src={adminIcon} alt="" className='w-8 h-8 rounded-full mr-2' />
-                <p className="hidden sm:block mr-1">admin</p>
+                <p className="hidden sm:inline mr-1">admin</p>
                 <IoIosArrowDropdown className='text-gray-400 text-xl' />
             </div>
         </div>

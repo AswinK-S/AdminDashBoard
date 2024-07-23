@@ -22,8 +22,8 @@ const MailList: React.FC = () => {
     ]
 
     return (
-        // <div className='bg-white rounded-lg shadow-sm flex-grow p-4'>
         <div className='bg-white rounded-lg shadow-sm h-full p-4 overflow-y-auto'>
+        {/* <div className='bg-white rounded-lg shadow-sm h-full p-4 overflow-y-auto'> */}
 
             <div className='flex justify-between items-center mb-4'>
                 <div className='relative flex-grow max-w-xl'>
