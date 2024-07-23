@@ -1,0 +1,8 @@
+/* In your src/styles/tailwind.css or another CSS file */
+.gray-filter {
+  filter: grayscale(60%) brightness(0.8) contrast(0.4);
+}
+
+.hover\:blue-filter:hover {
+  filter: grayscale(0%) sepia(100%) hue-rotate(190deg) saturate(800%) brightness(90%);
+}
