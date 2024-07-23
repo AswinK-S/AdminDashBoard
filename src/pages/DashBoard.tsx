@@ -7,8 +7,8 @@ import SalesDetails from '../components/dashboardComponents/SalesDetails';
 import DealsDetails from '../components/dashboardComponents/DealsDetails';
 import RevenueChartDetail from '../components/dashboardComponents/RevenueChartDetail';
 import CustomerDoughnut from '../components/dashboardComponents/CustomerChart';
-import FeaturedProduct from '../components/dashboardComponents/FeaturedProduct';
 import SalesAnalyticsChart from '../components/dashboardComponents/salesAnalyticsChart';
+import FeaturedProduct from '../components/dashboardComponents/FeaturedProduct';
 
 const Dashboard: React.FC = () => {
     
