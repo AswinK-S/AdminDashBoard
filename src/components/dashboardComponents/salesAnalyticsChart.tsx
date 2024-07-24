@@ -9,7 +9,7 @@ const SalesAnalyticsChart: React.FC = () => {
         height: 300,
         backgroundColor: "transparent",
         axisX: {
-            valueFormatString: "YYYY"
+            valueFormatString: "YYYY"   
         },
         axisY: {
             minimum: 0,

@@ -2,7 +2,11 @@ import React from 'react'
 import pImage from '/products/watch.jpeg'
 import { GrFavorite } from "react-icons/gr";
 
+
 const ProductCard: React.FC = () => {
+
+  
+    
     const products = [
         {
             image: pImage,
@@ -27,6 +31,10 @@ const ProductCard: React.FC = () => {
         }
 
     ]
+
+
+
+
     return (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {products.map((product, index) => (
